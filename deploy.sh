@@ -1,6 +1,6 @@
 docker build -t joshnavru/multi-client:latest -t joshnavru/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t joshnavru/multi-server:latest -t joshnavru/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t joshnavru/multi-worker:latest -t joshnavru/mulri-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t joshnavru/multi-worker:latest -t joshnavru/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push joshnavru/multi-client:latest
 docker push joshnavru/multi-server:latest
